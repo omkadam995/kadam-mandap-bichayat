@@ -179,6 +179,7 @@ body {
 
 .services-grid {
   display: grid;
+   width: 100%;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
 }
@@ -191,6 +192,10 @@ body {
   transition: all 0.3s ease;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
   border-left: 4px solid #667eea;
+   min-height: 250px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
 }
 
 .service-card:hover {
