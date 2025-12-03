@@ -7,8 +7,8 @@
 body {
   font-family: 'Poppins', Arial, sans-serif;
   line-height: 1.6;
-  color: #333;
-  background-color: #fef9f3;
+  color: #1E1E1E;
+  background-color: #EEF5FF;
 }
 
 .container {
@@ -19,13 +19,13 @@ body {
 
 /* Navbar */
 .navbar {
-  background: linear-gradient(135deg, #FFA500 0%, #FFD700 100%);
-  color: #333;
+  background: linear-gradient(135deg, #0A84FF 0%, #FFB400 100%);
+  color: #1E1E1E;
   padding: 1rem 0;
   position: sticky;
   top: 0;
   z-index: 100;
-  box-shadow: 0 2px 15px rgba(255, 165, 0, 0.2);
+  box-shadow: 0 2px 15px rgba(10, 132, 255, 0.2);
 }
 
 .navbar .container {
@@ -38,7 +38,7 @@ body {
   font-size: 1.5rem;
   font-weight: bold;
   letter-spacing: 1px;
-  color: #d9530f;
+  color: #0A84FF;
 }
 
 .nav-links {
@@ -48,20 +48,20 @@ body {
 }
 
 .nav-links a {
-  color: #333;
+  color: #1E1E1E;
   text-decoration: none;
   transition: color 0.3s ease;
   font-weight: 500;
 }
 
 .nav-links a:hover {
-  color: #d9530f;
+  color: #0A84FF;
 }
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(135deg, #FFE082 0%, #FFCA28 50%, #FFC107 100%);
-  color: #333;
+  background: linear-gradient(135deg, #FFE082 0%, #FFCA28 50%, #0A84FF 100%);
+  color: #1E1E1E;
   padding: 6rem 2rem;
   text-align: center;
   min-height: 500px;
@@ -74,14 +74,14 @@ body {
   font-size: 3.5rem;
   margin-bottom: 1rem;
   animation: slideInDown 0.8s ease;
-  color: #d9530f;
+  color: #0A84FF;
 }
 
 .hero-content p {
   font-size: 1.25rem;
   margin-bottom: 2rem;
   animation: slideInUp 0.8s ease;
-  color: #333;
+  color: #1E1E1E;
 }
 
 .cta-btn {
@@ -116,7 +116,7 @@ section h2 {
   font-size: 2.5rem;
   text-align: center;
   margin-bottom: 3rem;
-  color: #d9530f;
+  color: #0A84FF;
 }
 
 /* About Section */
@@ -146,14 +146,14 @@ section h2 {
 }
 
 .owner-info h3 {
-  color: #d9530f;
+  color: #0A84FF;
   font-size: 1.3rem;
   margin-bottom: 0.5rem;
 }
 
 .owner-info p {
   font-size: 1rem;
-  color: #333;
+  color: #1E1E1E;
 }
 
 /* Services Section */
@@ -171,10 +171,10 @@ section h2 {
   background: linear-gradient(135deg, #FFF9F1 0%, #FFFBF7 100%);
   padding: 2.5rem;
   border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(255, 165, 0, 0.15);
+  box-shadow: 0 4px 15px rgba(10, 132, 255, 0.15);
   transition: all 0.3s ease;
   text-align: center;
-  border-left: 4px solid #FFA500;
+  border-left: 4px solid #0A84FF;
 }
 
 .service-card:hover {
@@ -183,7 +183,7 @@ section h2 {
 }
 
 .service-card h3 {
-  color: #d9530f;
+  color: #0A84FF;
   margin-bottom: 1rem;
   font-size: 1.4rem;
 }
@@ -211,22 +211,22 @@ section h2 {
   padding: 2rem;
   border-radius: 10px;
   text-align: center;
-  box-shadow: 0 4px 15px rgba(255, 165, 0, 0.2);
+  box-shadow: 0 4px 15px rgba(10, 132, 255, 0.2);
 }
 
 .contact-card h3 {
-  color: #d9530f;
+  color: #0A84FF;
   margin-bottom: 1rem;
   font-size: 1.2rem;
 }
 
 .contact-card p {
-  color: #333;
+  color: #1E1E1E;
   font-size: 0.95rem;
 }
 
 .contact-card a {
-  color: #d9530f;
+  color: #0A84FF;
   text-decoration: none;
   font-weight: bold;
 }
@@ -246,7 +246,7 @@ section h2 {
 .contact-form input,
 .contact-form textarea {
   padding: 1rem;
-  border: 2px solid #FFA500;
+  border: 2px solid #0A84FF;
   border-radius: 8px;
   font-size: 1rem;
   font-family: 'Poppins', Arial, sans-serif;
@@ -282,7 +282,7 @@ section h2 {
 
 /* Footer */
 footer {
-  background: linear-gradient(135deg, #d9530f 0%, #F7931E 100%);
+  background: linear-gradient(135deg, #0A84FF 0%, #F7931E 100%);
   color: white;
   text-align: center;
   padding: 2rem;
