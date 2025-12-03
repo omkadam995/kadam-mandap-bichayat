@@ -263,8 +263,7 @@ section h2 {
 }
 
 .submit-btn {
-  background: linear-gradient(135deg, #FF6B35 0%, #F7931E 100%);
-  color: white;
+background: linear-gradient(135deg, #0A84FF 0%, #0A84FF 100%);  color: white;
   padding: 1.2rem;
   border: none;
   border-radius: 8px;
@@ -282,8 +281,7 @@ section h2 {
 
 /* Footer */
 footer {
-  background: linear-gradient(135deg, #0A84FF 0%, #F7931E 100%);
-  color: white;
+background: linear-gradient(135deg, #0A84FF 0%, #0A84FF 100%);  color: white;
   text-align: center;
   padding: 2rem;
   margin-top: 3rem;
